@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>André Felipe | Portfolio</title>
+  <meta name="description" content="Portfólio do Desenvoldedor Full-stack André Felipe para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="/assets/images/logo.png" alt="Logo AF">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1>Desenvolvedor Front-End</h1>
+      <p>André Felipe, Natal-RN, Analista de Sistemas, Infraestrutura e Desenvolvedor Web </p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/andrefelipepp" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/andrefelipepp/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/andrepaiva1311/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-python.svg" alt="Logo Python">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-java.svg" alt="Logo Java">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo Html">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-css.svg" alt="Logo Css">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo JavaScript">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="" alt="Capa Snake Game">
+        <div class="card__body">
+          <h3 class="card__title">Snake Game</h3>
+          <p class="card__description">Jogo da Cobrinha</p>
+          <ul class="card__list">
+            <li class="card__item">Passa-tempo;</li>
+            <li class="card__item">Interativo;</li>
+            <li class="card__item">Nível de dificuldade avançada.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-css.svg" alt="Logo Css">
+            </li>
+          </ul>
+           <!-- colocar o repositorio do snake game aqui-->
+          <div class="card__buttons">
+            <button class="btn btn--primary" onclick="window.location.href=''">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>            
+            <button class="btn" onclick="window.location.href=''">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="/assets/images/projects/petlife.png" alt="Capa Pet LIfe">
+        <div class="card__body">
+          <h3 class="card__title">Website Pet Life</h3>
+          <p class="card__description">Website Para Um Petshop (Pet Life).</p>
+          <ul class="card__list">
+            <li class="card__item">Organização estruturada;</li>
+            <li class="card__item">Informações clínicas;</li>
+            <li class="card__item">Descrição profissional.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-css.svg" alt="Logo Css">
+            </li>
+          </ul>
+
+          <div class="card__buttons">
+             <!-- colocar o repositorio do petlife aqui-->
+            <button class="btn btn--primary" onclick="window.location.href=''">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <button class="btn" onclick="window.location.href='https://github.com/andrefelipepp/PetLife'">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__card">
+        <img class="card__cover" src="/assets/images/projects/calculadora.png" alt="Capa Calculadora">
+        <div class="card__body">
+          <h3 class="card__title">Calculadora</h3>
+          <p class="card__description">Calculadora Simples</p>
+          <ul class="card__list">
+            <li class="card__item">Passa-tempo;</li>
+            <li class="card__item">Interativo;</li>
+            <li class="card__item">Nível de dificuldade intermediário.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-html.svg" alt="Logo Html">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-javascript.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/icons8-css.svg" alt="Logo Css">
+            </li>
+          </ul>
+           <!-- colocar o repositorio da calculadora aqui-->
+          <div class="card__buttons">
+            <button class="btn btn--primary" onclick="window.location.href=''">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>            
+            <button class="btn" onclick="window.location.href=''">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+
+      <a href="https://github.com/andrefelipepp">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar1.jpeg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>André Felipe. Apaixonado por tecnologia e computadores, meu primeiro "Hello World" foi na faculdade quando tive contato com Javascript. Atualmente curso Análise e Desenvolvimento de Sistemas na UNP; Engenharia da Computação na UFRN e atuo como desenvolvedor full-stack.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Português: Nativo | Inglês: Básico | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/andrefelipepp/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <!-- fazer o curriculo no Notion e acrescentar aqui -->
+          <a href="">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e Desenvolvimento de Sistemas</h4>
+          <span>Ago 2023 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Potiguar - Natal/RN</span>
+        </div>
+        <h4>Engenharia da Computação</h4>
+        <span>Fev 2024 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>UFRN - Natal/RN</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Não possuo experiência no mercado</h4>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Formação Desenvoldedor Full-Stack OneBitCode</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                EM BREVE
+              </p>
+              <p>
+                EM BREVE
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Formação CiberSecurity Cisco</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                
+              </p>
+              <div >
+                <img src="/assets/images/Certificates/André FelipePereira De Paiva-Cybersecurity Es-certificate (1)-pdf.png" alt="" width="500px" height="350px">
+              </div>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Formação Networking Essentials Cisco</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                 
+              </p>
+              <div>
+                <img src="/assets/images/Certificates/André FelipePereira De Paiva-Networking Essen-certificate (1)-pdf.png" alt="" width="500px" height="350px">
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/andrefelipepp" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/andrefelipepp/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/andrepaiva1311/" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:andrefelipe13pp@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">andrefelipe13pp@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Todos os Direitos Reservados. Desenvolvido por
+      <a href="https://github.com/andrefelipepp" target="_blank">André Felipe</a>.
+    </p>
+  </footer>
+ 
+</body>
+</html>
